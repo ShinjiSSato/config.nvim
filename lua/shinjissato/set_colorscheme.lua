@@ -7,4 +7,4 @@
 -- vim.cmd([[colorscheme tokyonight-storm]])
 
 -- Catpuccin colorscheme
-vim.cmd.colorscheme "catppuccin"
+vim.cmd.colorscheme "catppuccin-latte"
