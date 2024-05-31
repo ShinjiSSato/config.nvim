@@ -1,1 +1,1 @@
-My neovim configuration file.
+My neovim configuration repository.
