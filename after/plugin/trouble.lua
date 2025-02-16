@@ -20,11 +20,13 @@ local defaults = {
   indent_guides = true, -- show indent guides
   max_items = 200, -- limit number of items that can be displayed per section
   multiline = true, -- render multi-line messages
-  pinned = false, -- When pinned, the opened trouble window will be bound to the current buffer
+  pinned = false, -- When pinned, the opened trouble window will be bound to 
+                  -- the current buffer
   warn_no_results = true, -- show a warning when there are no results
   open_no_results = false, -- open the trouble window when there are no results
   ---@type trouble.Window.opts
-  win = {}, -- window options for the results window. Can be a split or a floating window.
+  win = {}, -- window options for the results window. Can be a split or 
+            -- a floating window.
   -- Window options for the preview window. Can be a split, floating window,
   -- or `main` to show the preview in the main editor window.
   ---@type trouble.Window.opts
@@ -42,7 +44,8 @@ local defaults = {
     update = 10, -- updates the window
     render = 10, -- renders the window
     follor = 100, -- follows the current item
-    preview = { ms = 100, debounce = true }, -- shows the preview for the current item
+    preview = { ms = 100, debounce = true }, -- shows the preview for the 
+    					     -- current item
   },
   -- Key mappings can be set to the name of a builtin action,
   -- or you can define your own custom action.
@@ -81,6 +84,8 @@ local defaults = {
     zR = "fold_open_all",
     zx = "fold_update",
     zX = "fold_update_all",
+
+
     zn = "fold_disable",
     zN = "fold_enable",
     zi = "fold_toggle_enable",

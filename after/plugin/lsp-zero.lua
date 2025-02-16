@@ -7,7 +7,8 @@ lsp_zero.on_attach(function(client, bufnr)
 end)
 
 -- to learn how to use mason.nvim with lsp-zero
--- read this: https://github.com/VonHeikemen/lsp-zero.nvim/blob/v3.x/doc/md/guides/integrate-with-mason-nvim.md
+-- read this: https://github.com/VonHeikemen/lsp-zero.nvim/blob/v3.x/doc/md/
+-- guides/integrate-with-mason-nvim.md
 require('mason').setup({})
 require('mason-lspconfig').setup({
   ensure_installed = {},
