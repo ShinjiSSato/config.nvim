@@ -1,1 +1,1 @@
-# my-nvim-config
+ShinjiSSato's neovim repository.
